@@ -18,7 +18,8 @@ import {
   BadgeCheck,
 } from 'lucide-react';
 
-const TG_URL = "https://t.me/ujin121";
+const TG_URL = "https://t.me/Aifory_Pro_Exchange";
+const TG_CHANNEL = "https://t.me/+ZHeRkICBUr02MDhk";
 
 function Card({ children, className = "", style = {} }) {
   return (
@@ -169,7 +170,7 @@ function App() {
             </div>
 
             <h1 className="hero-title">
-              ОБМЕН<br />В <span className="violet-gradient">ЧЕХИИ</span>
+              ОБМЕН В <span className="violet-gradient">ЧЕХИИ</span>
             </h1>
             <p className="hero-subtitle">
               Обмен USDT на наличные<br />и наличные на USDT<br />по лучшему курсу
@@ -236,6 +237,16 @@ function App() {
           <TelegramButton size="lg">Перейти в Telegram</TelegramButton>
         </Card>
       </div>
+
+      <footer className="footer">
+        <div className="footer-inner">
+          <div className="footer-copy">© 2024 Aifory Pro</div>
+          <a href={TG_CHANNEL} target="_blank" rel="noopener noreferrer" className="footer-link">
+            @Aifory_Pro_Exchange
+          </a>
+          <div className="footer-note">актуальная информация</div>
+        </div>
+      </footer>
     </div>
   );
 }
