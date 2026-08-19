@@ -170,7 +170,7 @@ function App() {
             </div>
 
             <h1 className="hero-title">
-              ОБМЕН В <span className="violet-gradient">ЧЕХИИ</span>
+              ОБМЕН В <span className="violet-gradient">ТУРЦИИ</span>
             </h1>
             <p className="hero-subtitle">
               Обмен USDT на наличные<br />и наличные на USDT<br />по лучшему курсу
@@ -207,7 +207,7 @@ function App() {
             <div className="advantages">
               <AdvantageCard highlight icon={<Percent className="h-5 w-5" />} title="Без скрытых комиссий" desc="Озвучиваем один курс заранее" />
               <AdvantageCard icon={<Zap className="h-5 w-5" />} title="Быстро и удобно" desc="Быстрые выплаты наличными" />
-              <AdvantageCard icon={<Globe2 className="h-5 w-5" />} title="Лучшие курсы в Чехии" desc="Информация в реальном времени" />
+              <AdvantageCard icon={<Globe2 className="h-5 w-5" />} title="Лучшие курсы в Турции" desc="Информация в реальном времени" />
               <AdvantageCard icon={<User className="h-5 w-5" />} title="Индивидуальный подход" desc="Подбираем оптимальные условия" />
             </div>
           </div>
